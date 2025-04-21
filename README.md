@@ -1,5 +1,10 @@
 # graspp-25S-Wealth-Consumption
-Data Science for Public Policy (2025S1S2) of Utokyo class
+
+## Dscription of class
+Data Science for Public Policy (2025S1S2) of Utokyo
+
+## Launch Notebook with Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main)
 
 # Dscription of this repository
 ## Why are you here
