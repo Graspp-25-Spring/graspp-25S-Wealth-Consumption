@@ -1,9 +1,12 @@
 # graspp-25S-Wealth-Consumption
-## Name of number
+## Numbers
+・Haichuan Zhang
+
+・Peilin Wang
+
+・Xulong Gao
+
 ・Zhenyang Cui
-・
-・
-・
 
 ## Dscription of class
 Data Science for Public Policy (2025S1S2) of Utokyo
@@ -16,10 +19,11 @@ Data Science for Public Policy (2025S1S2) of Utokyo
 This repository is for group work assignment.
 
 ## Folder structure
-- `notebooks/`: Jupyter notebooks
 - `data/`: Raw and processed datasets
+- `docs/`: Project Documentation (Reports, Presentations)
+- `notebooks/`: Jupyter notebooks
+- `report/`: Output (Visualizations, Models, Summaries)
 - `src/`: Python scripts
-- `figures/`: Graphs and outputs
 
 # Milestone 1 - Data Science for Public Policy
 Milestone 1.  （Until 2025/4/28）
