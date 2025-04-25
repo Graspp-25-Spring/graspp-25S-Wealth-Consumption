@@ -1,6 +1,10 @@
 import pandas as pd
+
+# WHERE IS THIS ECBDATA PYTHON FILE?
 from ecbdata import ecbdata
 import matplotlib.pyplot as plt
+
+
 #Download the data
 df = ecbdata.get_series('MNA.Q.Y.I9.W0.S1M.S1.D.P31._Z._Z._T.EUR.V.N')
 df1 = ecbdata.get_series('DWA.Q.I9.S14.A.LE.NUN.HST.EUR.S.N')
