@@ -30,4 +30,10 @@ Milestone 1.  （Until 2025/4/28）
 
 We aim to select and clean data, generate descriptive statistics.
 
+- data point
+    - Description: ?
+    - Source: ?
+    - Countries/Entities: TELL ME YOUR COUNTRIES
+    - API Documentation link: 
+
 
