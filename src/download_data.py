@@ -1,3 +1,6 @@
+pip install ecbdata 
+
+
 import pandas as pd
 from ecbdata import ecbdata
 import matplotlib.pyplot as plt
