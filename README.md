@@ -30,10 +30,11 @@ Milestone 1.  （Until 2025/4/28）
 
 We aim to select and clean data, generate descriptive statistics.
 
-- data point
-    - Description: ?
-    - Source: ?
-    - Countries/Entities: TELL ME YOUR COUNTRIES
-    - API Documentation link: 
-
-
+- **Description**: Quarterly private consumption data  
+- **Source**: European Central Bank (ECB)  
+- **Countries/Entities**: 20 EU zone countries  
+- **API Documentation Link**: [`ecbdata`](https://pypi.org/project/ecbdata/)  
+- **Notes**:  
+  - The dataset ranges from April 1995 to December 2024  
+  - The `ecbdata` library is installed via pip  
+  - We've modified the Python script (`download_data.py`) to include the proper data import line, and tested that it works
