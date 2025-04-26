@@ -1,13 +1,15 @@
-pip install ecbdata 
+# Run this line in a terminal,or notebook
+#  pip install ecbdata 
 
 
 import pandas as pd
 from ecbdata import ecbdata
 import matplotlib.pyplot as plt
-#Download the data
+#Download the data and save 
 df = ecbdata.get_series('MNA.Q.Y.I9.W0.S1M.S1.D.P31._Z._Z._T.EUR.V.N')
 df1 = ecbdata.get_series('DWA.Q.I9.S14.A.LE.NUN.HST.EUR.S.N')
-
+df.to_csv("D:/utokyo/python/graspp-25S-Wealth-Consumption/src/raw data/consumption.csv")
+df1.to_csv("D:/utokyo/python/graspp-25S-Wealth-Consumption/src/raw data/housing-wealth.csv")
 #Manipulate to what we want
 data = df[['TIME_PERIOD','OBS_VALUE','UNIT_MEASURE']].dropna()
 data.head(2)
