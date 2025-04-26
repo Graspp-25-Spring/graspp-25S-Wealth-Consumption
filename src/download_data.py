@@ -45,3 +45,11 @@ plt.legend()
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+
+# Descriptive statistics
+plt.figure()
+plt.title('Consumption')
+df_merge['consumption'].describe().drop(['count'],axis=0).plot(kind ='bar')
+plt.figure()
+plt.title('Housing wealth')
+df_merge['housing wealth'].describe().drop(['count'],axis=0).plot(kind ='bar')
