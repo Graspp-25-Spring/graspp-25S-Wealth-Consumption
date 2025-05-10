@@ -58,3 +58,18 @@ df_merge['consumption'].describe().drop(['count'],axis=0).plot(kind ='bar')
 plt.figure()
 plt.title('Housing wealth')
 df_merge['housing wealth'].describe().drop(['count'],axis=0).plot(kind ='bar')
+
+
+#Percentage change over consumption and wealth
+consumption_change_pct = data['consumption'].pct_change(1).multiply(100).dropna()
+wealth_change_pct = data1['housing wealth'].pct_change(1).multiply(100).dropna()
+
+'change it to histogram'
+import seaborn as sns
+sns.histplot(data= consumption_change_pct) 
+plt.title('seasonal change of consumption')
+sns.histplot(wealth_change_pct)
+wealth_change_pct_year = data1['housing wealth'].pct_change(4).multiply(100).dropna()
+sns.histplot(wealth_change_pct_year)
+consumption_change_pct_year = data['consumption'].pct_change(4).multiply(100).dropna()
+sns.histplot(consumption_change_pct_year)
