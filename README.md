@@ -11,6 +11,9 @@
 ## Dscription of class
 Data Science for Public Policy (2025S1S2) of Utokyo
 
+
+## Research Question
+Does household consume more when their wealth increases? We are interested in the relationship between household wealth and private consumption. We expect to identify a positive relationship between consumption and wealth, using data for EU zone 20 countries, and Japan. Our methodology is OLS regression, and we aim to compute Marginal Propensity to consume(MPC) and elasticity to represent the effect.
 ## Launch Notebook with Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main)
 
