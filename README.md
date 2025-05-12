@@ -7,7 +7,7 @@
 
 ・Zhenyang Cui
 
-## Description of class
+## Description of Class
 Data Science for Public Policy (2025S1S2) of Utokyo
 
 ## Research Question
@@ -18,25 +18,25 @@ We are interested in the relationship between household wealth and private consu
 ## Launch Notebook with Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main)
 
-# Dscription of this repository
+## Description of this Repository
 
-## propose of repository
+### Propose of this Repository
 This repository is for group work assignments.
 
-## Folder structure
+### Folder Structure
 - `data/`: Raw and processed datasets
 - `docs/`: Project Documentation (Reports, Presentations)
 - `notebooks/`: Jupyter notebooks
 - `report/`: Output (Visualizations, Models, Summaries)
 - `src/`: Python scripts
 
-# Milestone 1 （Until 2025/4/28）
+## Milestone 1 （Until 2025/4/28）
 
-We aim to select and clean data, generate descriptive statistics.
+We aim to select and clean data and generate descriptive statistics.
 
-## Data Description
+### Data Description
 
-### EU
+#### EU
 - **Description**: Quarterly private consumption data  
 - **Source**: European Central Bank (ECB)  
 - **Countries/Entities**: 20 EU zone countries  
@@ -46,7 +46,7 @@ We aim to select and clean data, generate descriptive statistics.
   - The `ecbdata` library is installed via pip  
   - We've modified the Python script (`download_data.py`) to include the proper data import line, and tested that it works
 
-### Japan
+#### Japan
 - **Description**: Quarterly macroeconomic data for Japan (consumption, income, and wealth)
 - **Source**: Cabinet Office Japan (内閣府) and Family Income and Expenditure Survey (e-Stat)
 - **Countries/Entities**: Japan
@@ -62,6 +62,6 @@ We aim to select and clean data, generate descriptive statistics.
   - File paths are structured to be relative, compatible with GitHub repositories
   - The script has been updated to dynamically locate project root and save the data using os.path.join(...)
 
-# Milestone 2 （Until 2025/05/12）
+## Milestone 2 （Until 2025/05/12）
 
 Data Visualization and Interpretation
