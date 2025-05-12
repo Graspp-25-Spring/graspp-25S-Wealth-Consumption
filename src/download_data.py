@@ -73,3 +73,6 @@ wealth_change_pct_year = data1['housing wealth'].pct_change(4).multiply(100).dro
 sns.histplot(wealth_change_pct_year)
 consumption_change_pct_year = data['consumption'].pct_change(4).multiply(100).dropna()
 sns.histplot(consumption_change_pct_year)
+
+
+
