@@ -47,7 +47,7 @@ We aim to select and clean data and generate descriptive statistics.
   - We've modified the Python script (`download_data.py`) to include the proper data import line, and tested that it works
 
 #### Japan
-- **Description**: Quarterly macroeconomic data for Japan (consumption, income, and wealth)
+- **Description**: Quarterly macroeconomic data for Japan ([Household Consumption (2023, Japan - Cabinet Office)](https://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/2023/tables/2023ffm1n_jp.xlsx), [Fixed Assets (2023)](https://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/2023/tables/2023si4_jp.xlsx), [Employment Income (2023)](https://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/2023/tables/2023ffm2_jp.xlsx))
 - **Source**: Cabinet Office Japan (内閣府) and Family Income and Expenditure Survey (e-Stat)
 - **Countries/Entities**: Japan
 - **Variables**:
