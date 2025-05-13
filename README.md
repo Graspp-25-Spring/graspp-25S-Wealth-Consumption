@@ -7,8 +7,10 @@
 
 ・Zhenyang Cui
 
+
 ## Launch Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main)
+
 
 ## Research Question
 **Does household consumption increase with household wealth?**
@@ -21,29 +23,34 @@ We aim to test this using regression analysis (OLS, GLS, GLM) and quantify:
 - Elasticity of consumption to different types of wealth
 - Marginal Propensity to Consume (MPC)
 
+
 ## Description of this Repository
 
 ### Propose of this Repository
 This repository is for group work assignments.
 
 ### Folder Structure (Simple Version)
-graspp-25S-Wealth-Consumption/
-│
-├── data/
-│    ├── raw data                       # Raw macro data from EU and Japan 
-│    ├── processing_data                # Intermediate processed data
-│    └── clean                          # Final dataset used for regression
-│
-├── docs/                               # Project Documentation (Presentations)
-│
-├── notebooks/
-│    ├── milestone_1_update.ipynb       # Main notebook for figures and modeling
-│    
-├── src/
-│    └── data_function/                 # Scripts for data extraction and data downloading
-│
-├── requirements.txt / environment.yml  # Dependencies
-└── README.md
+
+- `data/`: Raw and processed datasets  
+  - `raw_data/`: Raw macro data from EU and Japan  
+  - `processing_data/`: Intermediate processed data  
+  - `clean/`: Final dataset used for regression  
+
+- `docs/`: Project Documentation (Reports, Presentations)
+
+- `notebooks/`: Jupyter notebooks  
+  - `milestone_1_update.ipynb`: Main notebook for figures and modeling
+
+- `report/`: Output (Visualizations, Models, Summaries)  
+  *(We won't use this file this time.)*
+
+- `src/`: Python scripts  
+  - `data_function/`: Scripts for data extraction and downloading
+
+- `requirements.txt` / `environment.yml`: Dependency files
+
+- `README.md`: Project overview
+
 
 ## Milestone 1 （Until 2025/4/28）
 
@@ -82,6 +89,7 @@ graspp-25S-Wealth-Consumption/
   - Data is downloaded from Cabinet Office open data page (ESRI)
   - File paths are structured to be relative, compatible with GitHub repositories
   - The script has been updated to dynamically locate project root and save the data using os.path.join(...)
+
 
 ## Milestone 2 （Until 2025/05/26）
 
