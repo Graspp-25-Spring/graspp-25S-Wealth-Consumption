@@ -96,17 +96,31 @@ This repository is for group work assignments.
 - We aim to visualize macroeconomic trends and conduct regression analysis.
   - Main analysis notebook: `notebooks/milestone_1_update.ipynb`
 
-- Includes:
+- Data Pipeline:
+  - Raw → processed via custom extract scripts (`src/data_function/`)
+  - Cleaned merged datasets used throughout analysis
+  
+- Contents:
   - visualization:
-    - Line plot
-    - Bar chart
-    - Histogram
-    - QQ plot
-    - Residuals vs Fitted
-    - ACF plot
-    - Radar chart
+    - Line plots, bar charts, histograms
+    - QQ plots, residual vs fitted, ACF plots
+    - Radar chart comparison (2014 vs 2023)
+    - Pairwise scatterplots with regression lines
   - regression analysis
-    - Growth rate calculations
-    - Log-difference models
-    - Residual diagnostics
-    - AR(1) regressions
+    - OLS, robust OLS, GLS, and GLM models
+    - Growth rate and log-differenced specifications
+    - Residual diagnostics and normality tests
+    - Shapiro-Wilk test results
+  - Interactive Tool:
+    - dashboard to explore Japanese macroeconomic indicators
+   
+- Key Findings:
+    - EU:
+      - Editing.......
+    - Japan:  
+      - Stock market wealth has a significant short-run positive effect on household consumption, indicating that financial gains influence spending behavior in Japan.
+      - Housing wealth shows a larger coefficient but is not statistically significant, suggesting limited short-run consumption response to changes in real estate value.
+      - Employment income has no significant effect in the log-differenced model, reflecting the stability and rigidity of Japan’s wage structure.
+      - Consumption is tightly linked to labor income in level terms, but short-run fluctuations are more sensitive to asset-based wealth, particularly financial assets.
+
+
