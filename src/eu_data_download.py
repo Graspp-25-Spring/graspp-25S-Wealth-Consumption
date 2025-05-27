@@ -137,6 +137,22 @@ model = sm.OLS(y, X).fit(cov_type="HC3")  # Use robust SE due to potential non-n
 print(model.summary())
 """
 
+"Next create log difference data"
+df_logdiff = df_merge[["log_household_consumption","log housing wealth","log_financial_wealth","log_employment_income"]]
+df_logdiff= df_logdiff.diff().dropna()
 
+
+# OLS
+X = df_logdiff[["log housing wealth", "log_financial_wealth","log_employment_income"]].iloc[:-1].reset_index(drop=True)
+X = sm.add_constant(X)  # constant term
+
+# Prepare dependent variable
+y = df_logdiff["log_household_consumption"].iloc[1:].reset_index(drop=True)
+
+# Run OLS regression
+model = sm.OLS(y, X).fit()
+
+# Show results
+print(model.summary())
 
 
