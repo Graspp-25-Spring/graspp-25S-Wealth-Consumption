@@ -118,20 +118,23 @@ This repository is for group work assignments.
     - EU:
       - Household consumption exhibits a steady upward trend over time, closely tracking the rise in employment income and housing wealth.
       - A sharp decline in 2020, followed by a swift rebound, reflects the consumption shock caused by the COVID-19 pandemic and subsequent recovery.
-      - In the long-run model, income, housing wealth, and financial assets all show statistically significant and positive effects on consumption, with income being the most influential driver.
-      - In the short-run model, only housing wealth growth is significantly associated with consumption growth, while income and financial asset changes show no significant short-term effects.
+      - In the long-run model:
+        - employment income, housing wealth, and financial assets—are positively and significantly associated with household consumption.
+        - Among these, income has the largest and most statistically robust effect, suggesting a strong income-consumption linkage over time.
+      - In the short-run model:
+        - Only housing wealth growth is significantly correlated with changes in consumption.
+        - Changes in income and financial wealth do not exhibit significant short-term impacts on consumption growth.
     - Japan:  
-      - Stock market wealth has a significant short-run positive effect on household consumption, indicating that financial gains influence spending behavior in Japan.
-      - Housing wealth shows a larger coefficient but is not statistically significant, suggesting limited short-run consumption response to changes in real estate value.
-      - Employment income has no significant effect in the log-differenced model, reflecting the stability and rigidity of Japan’s wage structure.
-      - Consumption is tightly linked to labor income in level terms, but short-run fluctuations are more sensitive to asset-based wealth, particularly financial assets.
+      - In the short-run model, stock market wealth (financial assets) has a statistically significant positive effect on household consumption, indicating that capital gains may directly influence consumer behavior in Japan.
+      - Although housing wealth has a relatively larger coefficient, it is not statistically significant, implying that short-run consumption is less responsive to changes in real estate values.
+      - Employment income shows no significant short-run effect, possibly reflecting Japan's stable and slow-changing wage system.
 
 ## Summary of Our Work:
 ### EU: 
  - To Research Question: Does household consumption increase with household wealth?
-   - Yes – Clear Long-Run Relationship
+   - Yes – Strong Long-Run Relationship
    - Conclusion: In the EU, household consumption increases with household wealth in the long run, especially with stable income and rising real estate and financial asset values.
 ### Japan: 
  - To Research Question: Does household consumption increase with household wealth?
-   - Yes – Conditional Short-Run Effects
+   - Partially – Short-Run Sensitivity to Financial Wealth
    - Conclusion: In Japan, short-term consumption responds mainly to financial wealth, not housing or income.
