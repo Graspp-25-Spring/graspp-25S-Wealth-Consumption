@@ -113,8 +113,24 @@ This repository is for group work assignments.
     - Shapiro-Wilk test results
   - Interactive Tool:
     - dashboard to explore Japanese macroeconomic indicators
-   
-- Key Findings:
+
+## Milestone 3 （Until 2025/06/23）
+
+- The goal for milestone 3 is to have your analysis presented in a white-paper, slides or a dashboard.
+  - It is required to record a video (10-15 minutes).
+    - (1) high level overview of your github repository.
+    - (2) a quick overview of your slides/whitepaper.
+
+- Contents:
+  - 1. Data description (including links), research question, link to your project github
+  - 2. Descriptive statistics (country count, time period), min, max, mean of your variables (not all have to be included)
+  - 3. Scatter plots to compare your main relationships of interest (you don't have to include all controls)
+  - 4. Additional plots (time series, histograms)
+  - 5. Regression/Statistical Model
+  - 6. Optional: Text Analysis
+  - 7. Optional: Case studies
+
+## Key Findings:
     - EU:
       - Household consumption exhibits a steady upward trend over time, closely tracking the rise in employment income and housing wealth.
       - A sharp decline in 2020, followed by a swift rebound, reflects the consumption shock caused by the COVID-19 pandemic and subsequent recovery.
