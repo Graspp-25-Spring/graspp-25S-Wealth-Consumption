@@ -13,15 +13,15 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from ecbdata import ecbdata
 "something wrong with the api download so i change save 2 files in raw data to use"
-#df = ecbdata.get_series('MNA.Q.Y.I9.W0.S1M.S1.D.P31._Z._Z._T.EUR.V.N')
-df = pd.read_csv("consumption.csv")
+df = ecbdata.get_series('MNA.Q.Y.I9.W0.S1M.S1.D.P31._Z._Z._T.EUR.V.N')
+#df = pd.read_csv("consumption.csv")
 df1 = ecbdata.get_series('DWA.Q.I9.S14.A.LE.NUN._Z.EUR.S.N')
 eu_finance = ecbdata.get_series('DWA.Q.I9.S14.A.LE.F51M._Z.EUR.S.N')
-#eu_income = ecbdata.get_series("QSA.Q.N.I9.W0.S1M.S1._Z.B.B6G._Z._Z._Z.XDC._T.S.V.N._T")
-eu_income = pd.read_excel("eu_income.xlsx")
+eu_income = ecbdata.get_series("QSA.Q.N.I9.W0.S1M.S1._Z.B.B6G._Z._Z._Z.XDC._T.S.V.N._T")
+#eu_income = pd.read_excel("eu_income.xlsx")
 # Save data to CSV
-df.to_csv("D:/utokyo/python/graspp-25S-Wealth-Consumption/src/raw data/consumption.csv")
-df1.to_csv("D:/utokyo/python/graspp-25S-Wealth-Consumption/src/raw data/housing-wealth.csv")
+#df.to_csv("D:/utokyo/python/graspp-25S-Wealth-Consumption/src/raw data/consumption.csv")
+#df1.to_csv("D:/utokyo/python/graspp-25S-Wealth-Consumption/src/raw data/housing-wealth.csv")
 
 # Now ready to manipulate data
 data = df[['TIME_PERIOD','OBS_VALUE']].dropna()
@@ -49,8 +49,8 @@ eu_finance = eu_finance.rename({'TIME_PERIOD' : 'date','OBS_VALUE':'financial we
 eu_finance.date = pd.PeriodIndex(eu_finance.date, freq='Q').to_timestamp()
 eu_finance = eu_finance[(eu_finance['date'] >= '2009-01-01') & (eu_finance['date']<= '2024-07-01')]
 # income 
-eu_income = eu_income[['DATE','OBS.VALUE']].dropna()
-eu_income = eu_income.rename({'DATE' : 'date','OBS.VALUE':'income'},axis=1)
+eu_income = eu_income[['TIME_PERIOD','OBS_VALUE']].dropna()
+eu_income = eu_income.rename({'TIME_PERIOD' : 'date','OBS_VALUE':'income'},axis=1)
 eu_income.date = pd.PeriodIndex(eu_income.date, freq='Q').to_timestamp()
 eu_income = eu_income[(eu_income['date'] >= '2009-01-01') & (eu_income['date']<= '2024-07-01')]
 
@@ -154,5 +154,26 @@ model = sm.OLS(y, X).fit()
 
 # Show results
 print(model.summary())
+
+""" Next compute housing wealth/consumption and financial wealth/consumption ratio. 
+MPC = elasticity/ratio """
+
+df_merge["HW/consumption"] = df_merge["housing wealth"]/df_merge['consumption']
+df_merge["FW/consumption"] = df_merge["financial wealth"]/df_merge['consumption']
+                                      
+" log-model gives elasiticity of hw is 0.2044, of fw is 0.0897; log-diff model gives 0.8553 and 0.3659"
+
+Avg_HW_consum = df_merge["HW/consumption"].mean()
+Avg_FW_consum = df_merge["FW/consumption"].mean()
+MPC_HW_log = 0.2044/Avg_HW_consum
+MPC_FW_log = 0.0897/Avg_FW_consum
+MPC_HW_logdiff = 0.8553/Avg_HW_consum
+MPC_FW_logdiff = 0.3659/Avg_FW_consum
+
+# one euro increase in housing wealth generates 1/4 cent(s) increase in consumption,
+# and one euro increase in financial wealth generates 4/15 cents increase in consumption
+
+
+
 
 
