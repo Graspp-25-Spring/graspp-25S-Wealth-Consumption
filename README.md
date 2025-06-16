@@ -7,6 +7,19 @@
 
 ・Zhenyang Cui
 
+## Main Individual Contributions
+- Haichuan Zhang
+  - Collected and analyzed macroeconomic data for the EU.
+  - Researched and organized related prior studies and literature.
+
+- Peilin Wang
+  - Organized and prepared presentation materials.
+
+- Zhenyang Cui
+  - Managed the GitHub repository and project structure.
+  - Developed and maintained the Jupyter Notebook.
+
+Collected and analyzed macroeconomic data for Japan
 
 ## Launch Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main)
