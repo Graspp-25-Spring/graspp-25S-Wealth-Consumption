@@ -1,13 +1,7 @@
 # graspp-25S-Wealth-Consumption
 
-## List of Mumbers
-・Haichuan Zhang
+## List of Mumbers and Main Individual Contributions
 
-・Peilin Wang
-
-・Zhenyang Cui
-
-## Main Individual Contributions
 - Haichuan Zhang
   - Collected and analyzed macroeconomic data for the EU.
   - Researched and organized related prior studies and literature.
