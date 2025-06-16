@@ -1,6 +1,6 @@
 # graspp-25S-Wealth-Consumption
 
-## List of Mumbers and Main Individual Contributions
+## Mumbers and Main Individual Contributions
 
 - Haichuan Zhang
   - Collected and analyzed macroeconomic data for the EU.
