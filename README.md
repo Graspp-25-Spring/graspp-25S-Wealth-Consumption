@@ -141,15 +141,17 @@ This repository is for group work assignments.
       - Household consumption exhibits a steady upward trend over time, closely tracking the rise in employment income and housing wealth.
       - A sharp decline in 2020, followed by a swift rebound, reflects the consumption shock caused by the COVID-19 pandemic and subsequent recovery.
       - In the long-run model:
-        - employment income, housing wealth, and financial assets—are positively and significantly associated with household consumption.
-        - Among these, income has the largest and most statistically robust effect, suggesting a strong income-consumption linkage over time.
+        - Employment income, housing wealth, and financial assets are all positively and significantly associated with household consumption.
+        - Among these, income has the largest and most statistically robust effect, indicating a strong long-run income-consumption linkage.
+        - The long-run marginal propensity to consume (MPC) out of income is notably higher than that from either form of wealth.
       - In the short-run model:
         - Only housing wealth growth is significantly correlated with changes in consumption.
         - Changes in income and financial wealth do not exhibit significant short-term impacts on consumption growth.
     - Japan:  
-      - In the short-run model, stock market wealth (financial assets) has a statistically significant positive effect on household consumption, indicating that capital gains may directly influence consumer behavior in Japan.
-      - Although housing wealth has a relatively larger coefficient, it is not statistically significant, implying that short-run consumption is less responsive to changes in real estate values.
-      - Employment income shows no significant short-run effect, possibly reflecting Japan's stable and slow-changing wage system.
+      - In the short-run model, stock market wealth (financial assets) has a statistically significant positive effect on household consumption, suggesting capital gains may directly influence consumer behavior.
+      - Although housing wealth has a relatively larger coefficient, it is not statistically significant, implying that short-run consumption is less responsive to real estate fluctuations.
+      - Employment income shows no significant short-run effect, possibly reflecting Japan’s stable and slowly adjusting wage system.
+      - The short-run MPC from financial wealth is larger than that from income, indicating a stronger sensitivity of consumption to asset changes in the Japanese context.
 
 ## Summary of Our Work:
 ### EU: 
