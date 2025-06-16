@@ -156,9 +156,9 @@ This repository is for group work assignments.
 ## Summary of Our Work:
 ### EU: 
  - To Research Question: Does household consumption increase with household wealth?
-   - Yes – Strong Long-Run Relationship
+   - Yes – Strong Long-Run Relationship and Partially Short-Run Relationship
    - Conclusion: In the EU, household consumption increases with household wealth in the long run, especially with stable income and rising real estate and financial asset values.
 ### Japan: 
  - To Research Question: Does household consumption increase with household wealth?
-   - Partially – Short-Run Sensitivity to Financial Wealth
+   - Partially – Only Long-Run Sensitivity to Financial Wealth
    - Conclusion: In Japan, short-term consumption responds mainly to financial wealth, not housing or income.
