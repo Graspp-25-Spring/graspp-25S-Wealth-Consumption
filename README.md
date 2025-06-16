@@ -15,7 +15,8 @@
   - Collected and analyzed macroeconomic data for Japan.
 
 ## Launch Binder
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main)
+Open Our Main Notebook:
+[![Binder](https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main](https://hub.gesis.mybinder.org/user/graspp-25-sprin-lth-consumption-a2gairqk/doc/workspaces/auto-l/tree/notebooks/milestone_1_update.ipynb))
 
 
 ## Research Question
