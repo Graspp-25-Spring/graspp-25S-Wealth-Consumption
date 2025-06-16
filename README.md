@@ -16,7 +16,8 @@
 
 ## Launch Binder
 Open Our Main Notebook:
-[![Binder](https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/JaredChoi-git/graspp-25S-Wealth-Consumption/main](https://hub.gesis.mybinder.org/user/graspp-25-sprin-lth-consumption-a2gairqk/doc/workspaces/auto-l/tree/notebooks/milestone_1_update.ipynb))
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Graspp-25-Spring/graspp-25S-Wealth-Consumption/main?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fmilestone_1_update.ipynb)
 
 
 ## Research Question
